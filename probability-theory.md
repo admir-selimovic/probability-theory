@@ -9,13 +9,13 @@ In probability theory, one typically knows the parameters of the probability dis
 <br>
 The question of probability theory is: Given a data generating process, what are the properties of the outcomes?
 
-## 1.1 <span style="color:blue">Kolmogorov Axioms</span>
-
-### 1.1.1 Axioms
+## Kolmogorov Axioms
 
 The roots of probability reach centuries into the past, but it is with Kolmogorov that probability theory becomes rigorous, i.e., it becomes a branch of mathematics. An axiomatic definition of probability is elaborated in his 1933 work *Foundations of Theory of Probability*.
 
-**Axiom 1:**
+### Axioms
+
+#### Axiom 1
 
 $$
 P(E) \geq 0
@@ -23,7 +23,7 @@ $$
 
 The probability of an event $P(E)$ is a non-negative real number not greater than 1.
 
-**Axiom 2:**
+#### Axiom 2
 
 $$
 P(S)=1
@@ -31,7 +31,7 @@ $$
 
 The probability of the entire sample space $S$ equals unity.
 
-**Axiom 3:**
+#### Axiom 3
 
 $$
 P\left(\bigcup_{i=1}^{\infty} E_i\right)=\sum_{i=1}^{\infty} P\left(E_i\right.
@@ -39,7 +39,7 @@ $$
 
 For any countable sequence of mutually exclusive events (disjoint sets) $E_1, E_2,...$, the probability of at least one of these events occurring is the sum of their respective probabilities.
 
-### 1.1.2 Deductions
+### Deductions
 
 ##### The probability of the empty set
 
@@ -73,15 +73,15 @@ $$
 
 The probability that the event $A$ or $B$ occurs is the probability of the union of $A$ and $B$,  $P(A ∪ B)$. The probability that both events $A$ and $B$ occur is the probability of the intersection of $A$ and $B$, $P(A ∩ B)$
 
-## 1.2 <span style="color:blue">Random Variables</span>
+## Random Variables
 
 A random variable is one that can take on possible values/states randomly. One differentiates between discrete and continuous variables.
 
-## 1.3 <span style="color:blue">Probability Distributions</span>
+## Probability Distributions
 
 A probability distribution is a function that describes the likelihood of a random variable assuming any of the possible values, i.e., the likelihood of an event or outcome. There is a principle disambiguation between two kinds of probability distributions (in accordance with the nature of variables): probability mass function (PMF) for discrete variables, and probability density function (PDF) for continuous variables.
 
-### 1.3.1 Probability Mass Function (PMF)
+### Probability Mass Function (PMF)
 
 The probability mass function (PMF) maps from a state of a random variable to the probability of that random variable taking on that state. It operates on **discrete** variables.
 
@@ -111,7 +111,7 @@ If the PMF of rolling a die is computed, where random variable $X = \{1, 2, 3, 4
 
 PMF can act on more than one variable. Such a probability distribution is referred to as **joint probability distribution**.
 
-### 1.3.2 Probability Density Function (PDF)
+### Probability Density Function (PDF)
 
 Probability density function (PDF) operates on **continuous** random variables. PDF for any random variable $X$ is given as follows:
 
@@ -136,7 +136,7 @@ PDF integrates to unity.
 PDF gives a geometrical interpretation of the probability of an event. In difference to PMF, it does not output the probability of any state, but the probability of landing inside an infinitesimal region with volume 𝛿x is given by p(x)𝛿x.
 
 
-### 1.3.3 Cumulative Distribution Function (CDF)
+### Cumulative Distribution Function (CDF)
 
 Cumulative Distribution Function (CDF) for any random variable $X$ is the probability that $X$ assumes a value less than or equal to $x$:
 
@@ -174,17 +174,17 @@ $F(x)$ is a non-decreasing function of $x$.
 
 
 
-## 1.4 <span style="color:blue">Joint, Marginal, and Conditional Probabilities</span>
+## Joint, Marginal, and Conditional Probabilities
 
-### 1.4.1 Marginal Probability
+### Marginal Probability
 
 Marginal probability is the one of an event occuring, $P(A)$, irrespective of any other variable.
 
-### 1.4.2 Joint Probability
+### Joint Probability
 
 Joint probability is the one of two events, $P(A,B)$ occurring simultaneously.
 
-### 1.4.3 Conditional Probability
+### Conditional Probability
 
 Conditional probability is the one of an event $A$ occuring in the presence of another event $B$:
 
@@ -197,9 +197,9 @@ $$
 $$
 
 
-## 1.5 <span style="color:blue">Expectation, Variance, and Covariance</span>
+## Expectation, Variance, and Covariance
 
-### 1.5.1 Expectation
+### Expectation
 
 Expectation, or expected value, or mean of a discrete random variable $X$ having a probability mass function $f(x)$ is defined by
 
@@ -230,7 +230,7 @@ The equation is the continuous analog of the  expected value of a discrete rando
 <br><br>
 Expectation  is often  denoted by μ.
 
-### 1.5.2 Variance
+### Variance
 
 Expected value $E[X]$ yields the weighted average of the possible values of $X$. Variance measures the deviation, or spread of those values. It is given by the averaged squared distance between $X$ and its mean. If $X$ is a random variable with mean μ, then the variance of $X$ is defined by
 
@@ -246,7 +246,7 @@ $$
 
 Variance is often denoted by $σ^2$.
 
-### 1.5.3 Covariance
+### Covariance
 
 Data sets are often of more than one dimension. The aim of statistical analysis of these data sets is usually to determine relationships between its dimensions. Covariance is a measure of how much the dimensions vary from the mean with respect to each other. It is measured always among two dimensions. If there are more than two dimensions in the data set, there is more than one covariance measurement that can be calculated.
 
@@ -270,7 +270,7 @@ $$
 
 Covariance is often denoted by $σ^2(X,Y)$.
 
-## 1.6 <span style="color:blue">Common Probability Distributions</span>
+## Common Probability Distributions
 
 The probability of outcomes for discrete random variables can be summarized using discrete probability distributions.
 
@@ -280,7 +280,7 @@ PMF: Probability Mass Function, returns the probability of a given outcome.
 CDF: Cumulative Distribution Function, returns the probability of a value less than or equal to a given outcome.
 PPF: Percent-Point Function, returns a discrete value that is less than or equal to the given probability.
 
-### 1.6.1 Bernoulli  Distribution (Discrete)
+### Bernoulli  Distribution (Discrete)
 
 **A single binary outcome** has a Bernoulli distribution. Any event of one trial and two possible and mutually exclusive outcomes follows a Bernoulli distribution. Random variable X assumes the value of 1 with probability $p$ if a success occurs, and 0 with probability $1-p$ if a failure occurs.
 <br><br>
@@ -316,7 +316,7 @@ $$
 
 Some other common discrete probability distributions are built on the assumptions of independent Bernoulli trails. Among those are binomial, geometric, and negative binomial distributions.
 
-### 1.6.2 Binomial  Distribution (Discrete)
+### Binomial  Distribution (Discrete)
 
 **A sequence of binary outcomes** has a Binomial distribution.
 Each of *n* independent trials can result in one of two possible outcomes, labelled $success$ (assumed with probability $p$) and $failure$ (assumed with probability $1-p$). The random variable $X$ represents the number of successes in $n$ trials, i.e., the number of successes in $n$ independent Bernoulli trials has a binomial distribution.
@@ -367,7 +367,7 @@ $P(X=5)= {50 \choose 5} {(\frac{1}{6})}^5 {(1 - \frac{1}{6})}^{50-5} = 0.1118$
 
 
 
-### 1.6.3 Multinoulli/Categorical Distribution (Discrete)
+### Multinoulli/Categorical Distribution (Discrete)
 
 **A single categorical outcome** has a Multinoulli distribution.
 The multinoulli/categorical distribution is a special case of the multinomial distribution and a generalisation of the Bernoulli distribution. It is a distribution over a single discrete rrandom variable $X$ with $k$ different states.
@@ -382,7 +382,7 @@ A single roll of a die whose outcome will be in $S = \{1,2,3,4,5,6\}$, $k=6$
 
 In machine learning, a common case of a Multinoulli distribution is a multi-class classification of a single example into one of $k$ classes.
 
-### 1.6.4 Multinomial Distribution (Multivariate (joint))
+### Multinomial Distribution (Multivariate (joint))
 
 **A sequence of categorical outcomes** has a Multinomial distribution. The repetition of multiple independent Multinoulli trials follows a multinomial distribution.
 <br>
@@ -417,7 +417,7 @@ P(x_1=3, x_2=1,x_3=6) = \frac{10!}{3! 1! 6!} ({\frac{14}{30}})^3 ({\frac{9}{30}}
 $$
 
 
-### 1.6.5 Normal/Gaussian Distribution (Continuous)
+### Normal/Gaussian Distribution (Continuous)
 
 Normal/Gaussian distribution is a type of continuous probability distribution over a real-valued random variable. Its probability density function (PDF) is given by
 
@@ -430,7 +430,7 @@ Normal distribution is controlled by two parameters. $\mu$ is the mean or expect
 Although we will not make direct use of this formula, it is interesting to note that it involves two of the famous constants of mathematics: $π$ (the area of a circle of radius 1) and $e$ (which is the base of the natural logarithms). Also note that this formula is completely specified by the mean value μ and the standard deviation $σ$.
 
 
-### 1.6.6 Exponential Distribution (Continuous)
+### Exponential Distribution (Continuous)
 
 The probability density function (PDF) of an exponential distribution:
 
@@ -442,13 +442,13 @@ where λ is the rate parameter.
 <br><br>
 The exponential distribution assigns probability of zero to all negative values of x. It places a sharp point at $x=0$.
 
-### 1.6.7 Laplace Distribution (continuous)
+### Laplace Distribution (continuous)
 
 $$
 f(x ; \mu, b)=\frac{1}{2 b} \exp \left(-\frac{|x-\mu|}{b}\right)
 $$
 
-### 1.6.8 Geometric Distribution (discrete)
+### Geometric Distribution (discrete)
 
 $n$ independent trials, each with a probability $p, 0<p<1$, of resulting in success, are performed until a success occurs. The discrete random variable $X$ equals the nmber of trials $n$.
 <br>
@@ -462,7 +462,7 @@ where $n = 1,2,...$
 <br><br>
 Any random variable $X$ whose PMF is given by the equation for the PMF of the geometric distribution is said to be a geometric random variable with parameter $p$.
 
-### 1.6.9 Poisson Distribution
+### Poisson Distribution
 
 A discrete random variable $X$ takes on one of the values 0,1,2,...
 
@@ -472,7 +472,7 @@ $$
 
 where $e$ is Euler's number and λ is the rate parameter, a positive real number that is equal to the expected value of $X$ and also its variance.
 
-## 1.7 <span style="color:blue">Bayes' Theorem</span>
+## Bayes' Theorem
 
 In difference to the frequentist interpretation, Bayesian probability is not related directly to the rate at which events occur, but to qualitative levels of certainty.
 <br>
