@@ -3,14 +3,7 @@
 ```python
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.patches import Polygon
-import scipy.stats as stats
 from scipy.integrate import quad
-
-pd.options.display.float_format = '{:<.4f}'.format
-
-%matplotlib inline
 ```
 
 # Statistics
