@@ -86,18 +86,6 @@ $$
 
 where $h_\theta(x)$ represents the predicted value; $y$ the actual value; and $m$ the number of samples.
 
-<p align="center">
-  <img src="images/LOG_LOSS_PLOT_1.png" alt="Image" width="300">
-</p>
-
-From the plot we see that, if the actual value $y$. is. 1, as $h_\theta(x)$ approaches $0$, Cost approaches $\infty$. In other words, the larger the discrepancy between the predicted and the actual value, the larger the penality for the algorithm.
-
-<p align="center">
-  <img src="images/LOG_LOSS_PLOT_2.png" alt="Image" width="300">
-</p>
-
-And conversely, if the actual value $y=0$, as $h_\theta(x)$ &rightarrow; $1$, Cost &rightarrow; $\infty$.
-
 Putting the above functions together, we obtain $J(\theta)$ as
 
 $$J(\theta) = -\frac{1}{m} \sum_{i=1}^m y_i \ log(h_\theta(x_i)) + (1-y_i) \ log(1-h_\theta(x))$$
