@@ -105,12 +105,10 @@ where:
 - $\mu$ is the mean of the distribution,
 - $\sigma$ is the standard deviation of the distribution.
 
-However, when converting a sample mean $\bar{x}$ into a z-score, the raw score in the formula is replaced by the sample mean, and the standard deviation in the denominator is replaced by the **standard error** ($SE$).
+However, when converting a sample mean $\bar{x}$ into a z-score, the raw score in the formula is replaced by the sample mean, and the standard deviation in the denominator is replaced by the **standard error** ($\text{SE}$).
 
 The standard error is given by:
-$$
-SE = \frac{\sigma}{\sqrt{n}}
-$$
+$$\text{SE} = \frac{\sigma}{\sqrt{n}}$$
 
 Thus, the formula for calculating the z-score for a sample mean becomes:
 
@@ -171,7 +169,7 @@ $$P\{z>2\} = 1 - P\{z\leq2\} = 1 - 0.9772 = 0.0228$$
 
 For any $\alpha$ beetweeen 0 and 1, we define $z_a$ to be that value for which
 <br><br>
-$$P\{z>z_\alpha\} = \alpha$$
+$$P\{z\>z_\alpha\} = \alpha$$
 <br><br>
 That is, the probability that a standard normal random variable is greater than $z_\alpha$ is equal to $\alpha$.
 
@@ -179,8 +177,7 @@ That is, the probability that a standard normal random variable is greater than 
   <img src="images/NORMAL_RANDOM_VARIABLE_PERCENTILE.png" alt="Image" width="300">
 </p>
 
-<br>
-$$P\{z>z_\alpha\} = \alpha$$
+$$P \lbrace z \> z_\alpha \rbrace = \alpha$$
 
 Let us determine the value of $z_{\alpha}$ using the z-score table:
 <br><br>
@@ -272,7 +269,7 @@ If the data is a sample from a larger population, we divide by one fewer than th
 
 ***Sample Variance***
 
-IMPORTANT TO DISTINGUISH: VARIANCE IN PROBABILITY THEORY AND IN STATISTICS. In statistics: The variance of a set of n **equally likely values**
+It is important to distinguish between variance in probability theory and variance in statistics. In statistics, the term "variance" pertains to a measure of variability within a set of n **equally likely values**. This statistical variance quantifies how individual data points deviate from the mean of the dataset. On the other hand, in probability theory, variance refers to a concept related to the spread or dispersion of a random variable's possible values and their associated probabilities within a specific probability distribution. It is crucial to recognize that while both contexts involve variance, their definitions and implications may differ significantly.
 
 $$
 s^2=\frac{1}{n-1} \sum_{i=1}^n\left(x_i-\bar{x}\right)^2
