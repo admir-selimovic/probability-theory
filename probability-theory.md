@@ -235,13 +235,13 @@ Expectation  is often  denoted by μ.
 Expected value $E[X]$ yields the weighted average of the possible values of $X$. Variance measures the deviation, or spread of those values. It is given by the averaged squared distance between $X$ and its mean. If $X$ is a random variable with mean μ, then the variance of $X$ is defined by
 
 $$
-\operatorname{Var}(X)=E\left[(X-\mu)^2\right]=\sum_{i=1}^n\left(x_i-\mu\right)^2 f\left(x_i\right)
+\text{Var}(X)=E\left[(X-\mu)^2\right]=\sum_{i=1}^n\left(x_i-\mu\right)^2 f\left(x_i\right)
 $$
 
 An alternative formula for variance $Var(X)$, which offers the easiest way to compute it, is as follows:
 
 $$
-\operatorname{Var}(X)=E\left[X^2\right]-(E[X])^2
+\text{Var}(X)=E\left[X^2\right]-(E[X])^2
 $$
 
 Variance is often denoted by $σ^2$.
@@ -253,19 +253,19 @@ Data sets are often of more than one dimension. The aim of statistical analysis 
 For random variables $X$ and $Y$, the covariance is defined as the expected value of the product of their deviations from their individual expected values:
 
 $$
-\operatorname{Cov}(X, Y)=E[(X-E[X])(Y-E[Y])]
+\text{Cov}(X, Y)=E[(X-E[X])(Y-E[Y])]
 $$
 
 In case the random variable pair $(X, Y)$ assumes $n$ possible values $(x_i, y_i)$ with **equal probabilities** $p_i = 1/n, Cov(X,Y)$ can be expressed as follows:
 
 $$
-\operatorname{Cov}(X, Y)=\frac{1}{n} \sum_{i=1}^n\left(x_i-E[X]\right)\left(y_i-E[Y]\right)
+\text{Cov}(X, Y)=\frac{1}{n} \sum_{i=1}^n\left(x_i-E[X]\right)\left(y_i-E[Y]\right)
 $$
 
 Otherwise, if the random variable pair $(X, Y)$ assumes $n$ possible values $(x_i, y_i)$ with **unequal probabilities** $p_i$, the covariance can be expressed as follows:
 
 $$
-\operatorname{Cov}(X, Y)=\sum_{i=1}^n p_i\left(x_i-E[X]\right)\left(y_i-E[Y]\right)
+\text{Cov}(X, Y)=\sum_{i=1}^n p_i\left(x_i-E[X]\right)\left(y_i-E[Y]\right)
 $$
 
 Covariance is often denoted by $σ^2(X,Y)$.
