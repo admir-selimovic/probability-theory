@@ -58,7 +58,7 @@ The most important type of random variable is the normal random variable. The PD
 * the expected value, $\mu = E[x]$
 * the standard deviation of $x$, $\sigma = SD(x)$
 
-<img align="center" style="zoom: .3" src="img/NORMAL_PDF.png">
+<img align="center" style="zoom: .3" src="images/NORMAL_PDF.png">
 
 The larger $σ$ is, the more variability there is in thee curve. Not that the curve flattening as $\sigma$ increases.
 <br><br>
