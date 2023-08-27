@@ -360,7 +360,6 @@ Statistical inference is the science of drawing conclusions about a population b
 There are two common **forms of statistical inference**:
 <br>
 * Estimation
-<br>
 * Hypothesis Testing
 
 ### Estimation
@@ -369,9 +368,8 @@ There are two common **forms of statistical inference**:
 
 There are two common forms of estimation:
 <br>
-* ***Point estimation***
-<br>
-* ***Interval estimation***
+* Point estimation
+* Interval estimation
 
 #### Standard error of an (unbiased) estimator
 
@@ -399,7 +397,8 @@ $$
 
 It cannot be expected that an estimated parameter equals the resulting parameter exactly. Therefore, one can determine an interval about the point estimator in which one can be confident that the parameter lies.
 <br><br>
-An interval estimate *(confidence interval) of a population parameter is a range of values predicted to contain the parameter. Confidence is the ascribed probability (1-$\alpha$) that the confidence interval actually does contain the population parameter.*
+
+An interval estimate (confidence interval) of a population parameter is a range of values predicted to contain the parameter. Confidence is the ascribed probability, $(1- \alpha)$, that the confidence interval actually does contain the population parameter.
 
 ##### Interval Estimators of the Mean of a Normal Population with known Population Variance
 
@@ -416,15 +415,15 @@ $$z=\frac{\bar{X}-\mu}{\sigma / \sqrt{n}} = \sqrt{n} \frac{\bar{X}-\mu}{\sigma}$
 
 Since we know (from the section 'Percentiles of Normal Random Variables') that $z_{0.025} = 1.96$, it follows that 95 percent of the time, the absolute value of $z$ is less than or equal to 1.96.
 <br><br>
-$$P\left\{\frac{\sqrt{n}}{\sigma} |\bar{X}-\mu| \leq 1.96\right\} = 0.95$$
+$$P\left\lbrace\frac{\sqrt{n}}{\sigma} |\bar{X}-\mu| \leq 1.96\right\rbrace = 0.95$$
 
 Multiplying both sides of the inequality by $\sigma/\sqrt{n}$, we obtain
 <br><br>
-$$P \left\{ |\bar{X}-\mu| \leq 1.96 \frac{\sigma}{\sqrt{n}} \right\} = 0.95$$
+$$P \left \lbrace |\bar{X}-\mu| \leq 1.96 \frac{\sigma}{\sqrt{n}} \right\rbrace = 0.95$$
 
 From the preceeding, we can say that, with 95 percent probability, $\mu$ and $\bar{x}$ are within 1.96 $\sigma / \sqrt{n}$ of each other. This is equivalent to stating that
 
-$$P \left\{ \bar{X}-1.96\frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{X}+1.96\frac{\sigma}{\sqrt{n}} \right\} = 0.95$$
+$$P \left \lbrace \bar{X}-1.96\frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{X}+1.96\frac{\sigma}{\sqrt{n}} \right\rbrace = 0.95$$
 
 or, with 95 percent probability, the interval $\bar{X} \pm 1.96 \ \sigma / \sqrt{n}$ will contain the population mean.
 
