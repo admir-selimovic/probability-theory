@@ -58,7 +58,7 @@ $$g(z) = \frac{1}{1+e^{-z}}$$
 where $e$ is the Euler's number (2.71828).
 
 <p align="center">
-  <img src="https://www.ncbi.nlm.nih.gov/books/NBK543534/bin/463627_1_En_8_Fig2_HTML.jpg" alt="Image" width="300">
+  <img src="https://www.ncbi.nlm.nih.gov/books/NBK543534/bin/463627_1_En_8_Fig2_HTML.jpg" alt="Image" width="500">
 </p>
 
 Combining the two equations, we rewrite the hypothesis function as
@@ -116,7 +116,7 @@ Given $\theta$, we cna compute $J(\theta)$ and $\frac{∂J(\theta)}{∂\theta_i}
 
 Gradient for the loss function with respect to its weights is given in vector form as
 
-\begin{align}
+$$
    ∇J(\theta) = \frac{∂J(\theta)}{∂\theta} =
    \begin{bmatrix}
            \frac{∂J(\theta)}{∂\theta_0} \\
@@ -125,7 +125,7 @@ Gradient for the loss function with respect to its weights is given in vector fo
            \frac{∂J(\theta)}{∂\theta_n}
          \end{bmatrix} =
          \frac{1}{m} x^T (h_\theta(x)-y)
-  \end{align}
+$$
 
 The mathematics for deriving the gradient is omitted here and addressed in another section.
 
@@ -215,13 +215,10 @@ plt.ylabel('cost',fontsize=10)
 plt.show()
 ```
 
-    <ipython-input-13-a3ff6612f52e>:6: MatplotlibDeprecationWarning: The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as 'seaborn-v0_8-<style>'. Alternatively, directly use the seaborn API instead.
-      plt.style.use('seaborn-white')
 
-
-
-    
-![png](STATISTICS_v2_files/STATISTICS_v2_175_1.png)
+<p align="center">
+  <img src="images/175.png" alt="Image" width="300">
+</p>
     
 
 
@@ -263,8 +260,5 @@ accuracy(predicted_labels, labels)
 ```
 
 
-
-
-    0.9933333333333333
 
 
