@@ -90,30 +90,38 @@ How to determine ***probabilities*** concerning an arbitrary normal random varia
 $z$ is a standard normal random variable, i.e, $z$ is a normal random variable with mean 0 and standard deviation 1.
 The probability that $z$ is between two numbers $a$ and $b$ is equal to the area under the standard normal curve between $a$ and $b$. Areas under this curve have been computed, and tables have been prepared that enable us to find these probabilities.
 
-***Standardisation*** implies using the mean and the standard deviation to generate a standard score (***z-score***) to help us understand where an individual score falls in relation to the other score in the distribution.
-<br>
-A z-score is a number that indicates how far above or below the mean a given score is in the distribution in the standard deviation units i.e. how many standard deviations a score is above or below the mean. If the raw score is above the mean then the z-score will be positive and if it falls below the mean then it will be negative.
+***Standardisation*** implies using the mean and the standard deviation to generate a standard score (***z-score***) to help us understand where an individual score falls in relation to the other scores in the distribution.
 
-Z-score is given by:
+A z-score is a number that indicates how far above or below the mean a given score is in the distribution, measured in standard deviation units. In other words, it tells us how many standard deviations a score is above or below the mean. If the raw score is above the mean, the z-score will be positive, and if it falls below the mean, it will be negative.
 
-$$
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-$$
-
-where $x$ is a 'raw' standard normal variable.
-
-However if converting a sample mean $\bar{x}$ into a z-score then the raw score is replaced by the sample mean and the standard deviation in the denominator is replaced by the **standard error**.
-<br>
-Standard error is given by
-$$
-S E=\frac{\sigma}{\sqrt{n}}
-$$
-<br><br>
-Thus the formula for calculating z score for a sample mean becomes
+The z-score is calculated using the following formula:
 
 $$
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+z = \frac{x - \mu}{\sigma}
 $$
+
+where:
+- $x$ is the individual score,
+- $\mu$ is the mean of the distribution,
+- $\sigma$ is the standard deviation of the distribution.
+
+However, when converting a sample mean $\bar{x}$ into a z-score, the raw score in the formula is replaced by the sample mean, and the standard deviation in the denominator is replaced by the **standard error** ($SE$).
+
+The standard error is given by:
+$$
+SE = \frac{\sigma}{\sqrt{n}}
+$$
+
+Thus, the formula for calculating the z-score for a sample mean becomes:
+
+$$
+z = \frac{\bar{x} - \mu}{SE}
+$$
+
+where:
+- $\bar{x}$ is the sample mean,
+- $\mu$ is the mean of the population,
+- $SE$ is the standard error of the sample mean, calculated as the population standard deviation $\sigma$ divided by the square root of the sample size $n$.
 
 ***Z-Table (Standard Normal Table)***
 
@@ -336,13 +344,13 @@ The fourth standardized moment refers to the kurtosis.
 #### Sample Correlation Coefficient
 
 $$
-r=\frac{\operatorname{Cov}(X, Y)}{s_x s_y}
+r=\frac{\text{Cov}(X, Y)}{s_x s_y}
 $$
 
 #### Population Correlation Coefficient
 
 $$
-\rho=\frac{\operatorname{Cov}(X, Y)}{\sigma_X \sigma_Y}
+\rho=\frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}
 $$
 
 ## Statistical Inference
