@@ -69,11 +69,11 @@ Because the probability density function of a normal random variable $x$ is symm
 A normal random variable $x$ having mean value $\mu=0$ and standard deviation $\sigma=1$ is a ***standard normal random variable*** and it is common practice to use letter $z$ to represent a standard normal random variable.
 Its density curve is called the ***standard normal curve***:
 
-<img align="center" style="zoom: .2" src="img/STANDARD_NORMAL_CURVE.png">
+<img align="center" style="zoom: .2" src="images/STANDARD_NORMAL_CURVE.png">
 
 Approximate areas under a normal curve:
 
-<img align="center" style="zoom: .4" src="img/APPROX_AREAS_NORMAL_CURVE.png">
+<img align="center" style="zoom: .4" src="images/APPROX_AREAS_NORMAL_CURVE.png">
 
 #### Probabilities Associated with a Standard Normal Random Variable / Standardisation and Z Scores
 
@@ -159,7 +159,7 @@ $$P\{z>z_\alpha\} = \alpha$$
 <br><br>
 That is, the probability that a standard normal random variable is greater than $z_\alpha$ is equal to $\alpha$.
 
-<img align="center" style="zoom: .3" src="img/NORMAL_RANDOM_VARIABLE_PERCENTILE.png">
+<img align="center" style="zoom: .3" src="images/NORMAL_RANDOM_VARIABLE_PERCENTILE.png">
 <br>
 $$P\{z>z_\alpha\} = \alpha$$
 
@@ -409,7 +409,7 @@ $$P \left\{ \bar{X}-1.96\frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{X}+1.96\frac{
 
 or, with 95 percent probability, the interval $\bar{X} \pm 1.96 \ \sigma / \sqrt{n}$ will contain the population mean.
 
-<img align="center" style="zoom: .3" src="img/INTERVAL_ESTIMATION_DEMO_1.png">
+<img align="center" style="zoom: .3" src="images/INTERVAL_ESTIMATION_DEMO_1.png">
 
 $$P\{|z|\leq 1.96\} = P\{-1.96 \leq z \leq 1.96\} = 0.95$$
 
