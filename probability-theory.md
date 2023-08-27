@@ -105,10 +105,6 @@ $$
 
 The sum of all probabilities is 1. The distribution is normalised.
 
-##### Example
-
-If the PMF of rolling a die is computed, where random variable $X = \{1, 2, 3, 4, 5, 6\}$, PMF($X$) draws  as follows:
-
 PMF can act on more than one variable. Such a probability distribution is referred to as **joint probability distribution**.
 
 ### Probability Density Function (PDF)
