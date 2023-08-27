@@ -57,7 +57,9 @@ $$g(z) = \frac{1}{1+e^{-z}}$$
 
 where $e$ is the Euler's number (2.71828).
 
-<img align="center" style="zoom: .5" src="https://www.ncbi.nlm.nih.gov/books/NBK543534/bin/463627_1_En_8_Fig2_HTML.jpg">
+<p align="center">
+  <img src="https://www.ncbi.nlm.nih.gov/books/NBK543534/bin/463627_1_En_8_Fig2_HTML.jpg" alt="Image" width="300">
+</p>
 
 Combining the two equations, we rewrite the hypothesis function as
 
@@ -84,11 +86,15 @@ $$
 
 where $h_\theta(x)$ represents the predicted value; $y$ the actual value; and $m$ the number of samples.
 
-<img align="center" style="zoom: .2" src="img/LOG_LOSS_PLOT_1.png">
+<p align="center">
+  <img src="images/LOG_LOSS_PLOT_1.png" alt="Image" width="300">
+</p>
 
 From the plot we see that, if the actual value $y$. is. 1, as $h_\theta(x)$ approaches $0$, Cost approaches $\infty$. In other words, the larger the discrepancy between the predicted and the actual value, the larger the penality for the algorithm.
 
-<img align="center" style="zoom: .2" src="img/LOG_LOSS_PLOT_2.png">
+<p align="center">
+  <img src="images/LOG_LOSS_PLOT_2.png" alt="Image" width="300">
+</p>
 
 And conversely, if the actual value $y=0$, as $h_\theta(x)$ &rightarrow; $1$, Cost &rightarrow; $\infty$.
 
