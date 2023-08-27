@@ -44,7 +44,9 @@ While the possible values of a discrete random variable can be written as a sequ
 
 Every continuous random variable X has a curve associated with it. This curve, formally known as a probability density function, can be used to obtain probabilities associated with the random variable.
 
-<img align="center" style="width: 300px;" src="http://work.thaslwanter.at/Stats/html/_images/PDF.png">
+<p align="center">
+  <img src="http://work.thaslwanter.at/Stats/html/_images/PDF.png" alt="Image" width="300">
+</p>
 
 Probability Density Function (PDF) of a value $x$. The integral over the PDF between $a$ and $b$ gives the likelihood of finding the value of $x$ in that range. That is, the probability that $x$ assumes a value that lies between a and b is equal to the area under the curve between $a$ and $b$:
 <br><br>
@@ -57,8 +59,10 @@ $P\{a ≤ x ≤ b\} =$ area under curve between $a$ and $b$
 The most important type of random variable is the normal random variable. The PDF of a normal random variable $x$ is determined by two parameters:
 * the expected value, $\mu = E[x]$
 * the standard deviation of $x$, $\sigma = SD(x)$
-
-<img align="center" style="width: 300px;" src="images/NORMAL_PDF.png">
+  
+<p align="center">
+  <img src="images/NORMAL_PDF.png" alt="Image" width="300">
+</p>
 
 The larger $σ$ is, the more variability there is in thee curve. Not that the curve flattening as $\sigma$ increases.
 <br><br>
@@ -69,11 +73,15 @@ Because the probability density function of a normal random variable $x$ is symm
 A normal random variable $x$ having mean value $\mu=0$ and standard deviation $\sigma=1$ is a ***standard normal random variable*** and it is common practice to use letter $z$ to represent a standard normal random variable.
 Its density curve is called the ***standard normal curve***:
 
-<img align="center" style="width: 300px;" src="images/STANDARD_NORMAL_CURVE.png">
+<p align="center">
+  <img src="images/STANDARD_NORMAL_CURVE.png" alt="Image" width="300">
+</p>
 
 Approximate areas under a normal curve:
 
-<img align="center" style="width: 300px;" src="images/APPROX_AREAS_NORMAL_CURVE.png">
+<p align="center">
+  <img src="images/APPROX_AREAS_NORMAL_CURVE.png" alt="Image" width="300">
+</p>
 
 #### Probabilities Associated with a Standard Normal Random Variable / Standardisation and Z Scores
 
@@ -159,7 +167,9 @@ $$P\{z>z_\alpha\} = \alpha$$
 <br><br>
 That is, the probability that a standard normal random variable is greater than $z_\alpha$ is equal to $\alpha$.
 
-<img align="center" style="width: 300px;" src="images/NORMAL_RANDOM_VARIABLE_PERCENTILE.png">
+<p align="center">
+  <img src="images/NORMAL_RANDOM_VARIABLE_PERCENTILE.png" alt="Image" width="300">
+</p>
 
 <br>
 $$P\{z>z_\alpha\} = \alpha$$
@@ -410,7 +420,9 @@ $$P \left\{ \bar{X}-1.96\frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{X}+1.96\frac{
 
 or, with 95 percent probability, the interval $\bar{X} \pm 1.96 \ \sigma / \sqrt{n}$ will contain the population mean.
 
-<img align="center" style="width: 300px;" src="images/INTERVAL_ESTIMATION_DEMO_1.png">
+<p align="center">
+  <img src="images/INTERVAL_ESTIMATION_DEMO_1.png" alt="Image" width="300">
+</p>
 
 $$P\{|z|\leq 1.96\} = P\{-1.96 \leq z \leq 1.96\} = 0.95$$
 
