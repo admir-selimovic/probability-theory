@@ -382,7 +382,7 @@ A single roll of a die whose outcome will be in $S = \{1,2,3,4,5,6\}$, $k=6$
 
 In machine learning, a common case of a Multinoulli distribution is a multi-class classification of a single example into one of $k$ classes.
 
-### Multinomial Distribution (Multivariate (joint))
+### Multinomial Distribution (multivariate, joint)
 
 **A sequence of categorical outcomes** has a Multinomial distribution. The repetition of multiple independent Multinoulli trials follows a multinomial distribution.
 <br>
@@ -417,7 +417,7 @@ P(x_1=3, x_2=1,x_3=6) = \frac{10!}{3! 1! 6!} ({\frac{14}{30}})^3 ({\frac{9}{30}}
 $$
 
 
-### Normal/Gaussian Distribution (Continuous)
+### Normal/Gaussian Distribution (continuous)
 
 Normal/Gaussian distribution is a type of continuous probability distribution over a real-valued random variable. Its probability density function (PDF) is given by
 
@@ -430,7 +430,7 @@ Normal distribution is controlled by two parameters. $\mu$ is the mean or expect
 Although we will not make direct use of this formula, it is interesting to note that it involves two of the famous constants of mathematics: $π$ (the area of a circle of radius 1) and $e$ (which is the base of the natural logarithms). Also note that this formula is completely specified by the mean value μ and the standard deviation $σ$.
 
 
-### Exponential Distribution (Continuous)
+### Exponential Distribution (continuous)
 
 The probability density function (PDF) of an exponential distribution:
 
@@ -450,7 +450,7 @@ $$
 
 ### Geometric Distribution (discrete)
 
-$n$ independent trials, each with a probability $p, 0<p<1$, of resulting in success, are performed until a success occurs. The discrete random variable $X$ equals the nmber of trials $n$.
+$n$ independent trials, each with a probability $p, 0\lt p \lt 1$, of resulting in success, are performed until a success occurs. The discrete random variable $X$ equals the nmber of trials $n$.
 <br>
 Probability mass function (PMF) of the geometric distribution is defined as
 
@@ -499,10 +499,10 @@ What is the chance of rain, given that today started cloudy?
 **(2)** $P(\text{Cloud}) = 0.4$
 <br>
 **(3)** $P(\text{Cloud|Rain}) = 0.5$
+
 <br><br>
+
 $$
 P(\text{Rain|Cloud}) = \frac{P(\text{Cloud|Rain}) \times P(\text{Rain})}{P(\text{Cloud})} = \frac{0.5 \times 0.1}{0.4} = 0.125 \text{ or } 12.5\%
 $$
 
-
----
