@@ -367,7 +367,7 @@ $P(X=5)= {50 \choose 5} {(\frac{1}{6})}^5 {(1 - \frac{1}{6})}^{50-5} = 0.1118$
 
 
 
-### Multinoulli/Categorical Distribution (Discrete)
+### Multinoulli / Categorical Distribution (discrete)
 
 **A single categorical outcome** has a Multinoulli distribution.
 The multinoulli/categorical distribution is a special case of the multinomial distribution and a generalisation of the Bernoulli distribution. It is a distribution over a single discrete rrandom variable $X$ with $k$ different states.
